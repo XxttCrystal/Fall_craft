@@ -14,5 +14,8 @@
     "item.contenttweaker.redstone_crystal" : "红石碎块",
     "item.contenttweaker.coal_crystal" : "煤炭催生块",
     "item.contenttweaker.ys_crystal" : "压缩萤石碎块",
-    "item.contenttweaker.not_ok_aa" : "粗制安山合金"
+    "item.contenttweaker.not_ok_aa" : "粗制安山合金",
+    "item.contenttweaker.copper_coin" : "铜币",
+    "item.contenttweaker.silver_coin" : "银币",
+    "item.contenttweaker.golden_coin" : "金币"
 }
