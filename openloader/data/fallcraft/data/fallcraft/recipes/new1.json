@@ -1,0 +1,33 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "item": "contenttweaker:not_ok_aa",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "water"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "create:andesite_alloy",
+            "count": 1
+          },
+          "weight": 80
+        },
+        {
+          "result": {
+            "item": "create:copper_nugget",
+            "count": 1
+          },
+          "weight": 10
+        }
+      ],
+      "empty_weight": 10,
+      "rolls": 1
+    },
+    "consume_fluid": 0.1
+  }
