@@ -1,0 +1,33 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "tciastructures:zdtower", 
+        "maxDepth": 20, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 0,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 48,  
+    "minimumSpacing": 40,          
+    "seed": 5201314,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#icy",
+        "#extreme_hills"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}

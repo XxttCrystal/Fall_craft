@@ -1,0 +1,22 @@
+{
+  "block.masterfulmachinery.basic_basic_port_items_input": "Basic - Basic Item Input Port",
+  "block.masterfulmachinery.basic_basic_port_items_output": "Basic - Basic Item Output Port",
+  "block.masterfulmachinery.basic_chungus_port_energy_input": "Basic - Basic Energy Input Port",
+  "block.masterfulmachinery.basic_chungus_port_energy_output": "Basic - Basic Energy Output Port",
+  "block.masterfulmachinery.basic_controller": "Basic Controller",
+  "block.masterfulmachinery.basic_gassy_port_mekanism_gas_input": "Basic - Gassy Input Port",
+  "block.masterfulmachinery.basic_gassy_port_mekanism_gas_output": "Basic - Gassy Output Port",
+  "block.masterfulmachinery.basic_mekslurry_port_mekanism_slurry_input": "Basic - MekSlurry Input Port",
+  "block.masterfulmachinery.basic_mekslurry_port_mekanism_slurry_output": "Basic - MekSlurry Output Port",
+  "block.masterfulmachinery.basic_small_port_fluids_input": "Basic - Small Fluid Input Port",
+  "block.masterfulmachinery.basic_small_port_fluids_output": "Basic - Small Fluid Output Port",
+  "block.masterfulmachinery.basic_spinny_port_create_rotation_input": "Basic - Spinny Input Port",
+  "block.masterfulmachinery.basic_spinny_port_create_rotation_output": "Basic - Spinny Output Port",
+  "block.masterfulmachinery.projector": "Structure Projector",
+  "block.masterfulmachinery.structure_generator": "Structure Generator",
+  "container.masterfulmachinery.basic_controller.name": "Basic Controller",
+  "container.masterfulmachinery.create_rotation": "Rotation Port",
+  "item.masterfulmachinery.blueprint": "Blueprint",
+  "item.masterfulmachinery.structure_gen_device": "Structure Selector",
+  "itemGroup.masterfulmachinery": "Masterful Machinery"
+}

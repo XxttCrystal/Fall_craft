@@ -1,0 +1,17 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/config/
+!/patchouli_books
+!/resources
+!/scripts
+!/worldshape
+!/openloader
+
+#Files
+!/.gitignore
+!/README.md
+!/options.txt
+!/LICENSE

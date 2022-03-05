@@ -1,0 +1,35 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "tciastructures:leader_factory", 
+        "maxDepth": 20, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 0,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 48,  
+    "minimumSpacing": 40,          
+    "seed": 5201314,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#plains",
+        "#forest"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}

@@ -1,0 +1,36 @@
+
+#
+# iPixeli's LagMeter Mod 
+# Client Configuration File 
+# https://www.curseforge.com/minecraft/mc-mods/lagmeter 
+#
+[DATA]
+	#data_outdated: How many seconds can pass before the last known TPS value is considered outdated. (Modifiable via file only)
+	#Range: 0 ~ 30
+	data_outdated = 10
+
+[Meter]
+	#meter_location: Where to display on screen.
+	#Allowed Values: TOPLEFT, TOPRIGHT, BOTTOMRIGHT, BOTTOMLEFT
+	meter_location = "BOTTOMLEFT"
+	#meter_single_line: Renders all in a single line.
+	meter_single_line = false
+	#meter_show_tps: Allowed Values are true or false
+	meter_show_tps = true
+
+[INFORMATION]
+	#overlay_location: Where to display on screen.
+	#Allowed Values: LEFT, CENTER, RIGHT
+	overlay_location = "CENTER"
+
+[TEXT]
+	#text_color_dynamic: Allowed Values are true or false
+	text_color_dynamic = true
+	#text_color_specific: Will be ignored when text_color_dynamic is enabled. Accepts hexadecimal values converted to decimal format. (Modifiable via file only)
+	#Range: 0 ~ 16777215
+	text_color_specific = 16777215
+	#text_shadow: Allowed Values are true or false
+	text_shadow = false
+	#text_outline: Allowed Values are true or false
+	text_outline = false
+
