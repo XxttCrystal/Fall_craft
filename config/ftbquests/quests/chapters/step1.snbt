@@ -55,7 +55,10 @@
 			x: 9.0d
 			y: -0.5d
 			subtitle: "e"
-			description: ["我终于掰断了一根完整的树枝，还在水中找到了一大块燧石，真是上帝保佑，我知道接下来该做什么了！"]
+			description: [
+				"我终于掰断了一根完整的树枝，还在水中找到了一大块燧石，真是上帝保佑，我知道接下来该做什么了！"
+				"tips:你可以把沙砾扔到水里洗一洗！"
+			]
 			dependencies: ["4AEC8BC4FD18D8C7"]
 			id: "30B1A882246867F4"
 			tasks: [
@@ -711,24 +714,12 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 0.0d
-			dependencies: ["49EA5D00AFE83EC2"]
-			id: "682F9862E4322F06"
-			tasks: [{
-				id: "2D7CE2FC6901956D"
-				type: "item"
-				item: "cold_sweat:icebox"
-			}]
-		}
-		{
 			title: "安全存活！"
 			x: 27.0d
 			y: 0.0d
 			subtitle: "啊~"
 			description: ["现在发展了这么长时间，我总算有了一个好的开头，有水喝，有火炉有冰箱，日子过的还是很不错的！但是我觉得既然合金都有了，也是时候开始发展科技了！"]
 			dependencies: [
-				"682F9862E4322F06"
 				"6373FB4043C23D3C"
 				"63F3095A5340B9F0"
 			]

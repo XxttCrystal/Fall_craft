@@ -1,0 +1,53 @@
+{
+    "type": "masterfulmachinery:machine_structure",
+    "id": "001",
+    "controllerId": "basic",
+    "name": "Al machine",
+    "layout": [
+      [
+        ")))",
+        "C))",
+        ")))"
+      ],
+      [
+        "   ",
+        "* +",
+        "   "
+      ],
+      [
+        "   ",
+        "  ,",
+        "   "
+      ],
+      [
+        "   ",
+        "- .",
+        "   "
+      ],
+      [
+        "   ",
+        "...",
+        "   "
+      ]
+    ],
+    "legend": {
+      ")": {
+        "block": "create:andesite_casing"
+      },
+      "*": {
+        "block": "masterfulmachinery:basic_basic_port_items_input"
+      },
+      "+": {
+        "block": "masterfulmachinery:basic_basic_port_items_output"
+      },
+      ",": {
+        "block": "masterfulmachinery:basic_spinny_port_create_rotation_input"
+      },
+      "-": {
+        "block": "minecraft:iron_bars"
+      },
+      ".": {
+        "block": "minecraft:stone_brick_wall"
+      }
+    }
+  }

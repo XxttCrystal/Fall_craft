@@ -1,15 +1,15 @@
 {
     "controllerId": "basic",
     "name": "Basic",
-    "textureOverride": "minecraft:block/cactus_side",
+    "textureOverride": "create:block/andesite_casing",
     "ports": [
       {
         "type": "masterfulmachinery:items",
-        "textureOverride": "minecraft:block/melon_side",
+        "textureOverride": "create:block/andesite_casing",
         "name": "Basic Item",
         "id": "basic",
         "data": {
-          "rows": 3,
+          "rows": 1,
           "columns": 3
         }
       },
@@ -18,7 +18,7 @@
         "name": "Basic Energy",
         "id": "chungus",
         "data": {
-          "capacity": 1000000000
+          "capacity": 100000
         }
       },
       {
@@ -42,7 +42,7 @@
         "name": "MekSlurry",
         "id": "mekslurry",
         "data": {
-          "capacity": 1000000
+          "capacity": 100000
         }
       },
       {
@@ -50,7 +50,7 @@
         "name": "Spinny",
         "id": "spinny",
         "data": {
-           "stress": 1
+           "stress": 64
         }
       },
       {

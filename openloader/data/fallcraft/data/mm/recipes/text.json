@@ -1,0 +1,37 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "001",
+    "controllerId": "basic",
+    "ticks": 200,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "minecraft:stone",
+                "count": 3
+            }
+        },
+        {
+            "type": "masterfulmachinery:create_rotation",
+            "data":{
+                "speed": 32
+            }
+        }
+    ],
+    "outputs":[
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "minecraft:cobblestone",
+                "count": 3
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "immersiveengineering:ingot_aluminum",
+                "count": 1
+            }
+        }
+    ]
+}

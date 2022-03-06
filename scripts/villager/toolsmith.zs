@@ -108,8 +108,7 @@ for i in output4{
 
 var output5 as IItemStack[] = [
     <item:tconstruct:dragon_scale>,
-    <item:create_stuff_additions:quartz_crusher>,
-    <item:cold_sweat:hellspring_lamp>
+    <item:create_stuff_additions:quartz_crusher>
 ];
 for i in output5{
     villagerTrades.addTrade(<profession:minecraft:toolsmith>, 5, 64, i, 5, 10, 0.05);

@@ -1,0 +1,37 @@
+{
+	id: "2CF4443C5346C581"
+	group: "5DE5C4C0BD5A888C"
+	order_index: 0
+	filename: "2CF4443C5346C581"
+	title: "大生产运动"
+	icon: "masterfulmachinery:basic_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "铝：大生产"
+		x: -3.0d
+		y: -1.5d
+		id: "183FF022B5214F6F"
+		tasks: [
+			{
+				id: "1598B9E778A154BB"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 64L
+			}
+			{
+				id: "3FEE26F593F9FC34"
+				type: "questsadditions:structure"
+				title: "铝提取机"
+				name: "al"
+				hasCustomPicture: false
+			}
+		]
+		rewards: [{
+			id: "1E895D086F6CFB3D"
+			type: "item"
+			item: "immersiveengineering:storage_aluminum"
+			count: 16
+		}]
+	}]
+}

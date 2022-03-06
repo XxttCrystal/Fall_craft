@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "4EC3A576025C391F", title: "主线-复兴" }]
+	chapter_groups: [
+		{ id: "4EC3A576025C391F", title: "主线-复兴" }
+		{ id: "5DE5C4C0BD5A888C", title: "支线" }
+	]
 }

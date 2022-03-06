@@ -38,5 +38,201 @@
 				item: "create:millstone"
 			}]
 		}
+		{
+			title: "模板"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "匠人"
+			description: ["我作为一个匠人，这点小东西还是能记得的"]
+			dependencies: ["0315DAD345C61963"]
+			id: "36A9AAC146C9C16B"
+			tasks: [{
+				id: "7FD145464AC8FB57"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 3L
+			}]
+		}
+		{
+			title: "工匠台？"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "工匠大师"
+			description: ["我需要工匠工作台，这玩意有更多的储存能力，还有模板工作台和工匠制作台，我来制作一些工具是有必要的！"]
+			dependencies: ["36A9AAC146C9C16B"]
+			id: "4B3660FA6BA816A2"
+			tasks: [{
+				id: "019D8CCECF3AF6B5"
+				type: "item"
+				title: "Any #forge:workbenches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+		}
+		{
+			title: "进阶的镐！"
+			x: 6.5d
+			y: 6.0d
+			dependencies: ["4B3660FA6BA816A2"]
+			id: "393E7F8CB8528D80"
+			tasks: [
+				{
+					id: "60138F98842067CA"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "5E6B36B173030FE2"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bone"
+						}
+					}
+				}
+				{
+					id: "142BE54770A400CF"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "进阶的斧！"
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["4B3660FA6BA816A2"]
+			id: "7C9C57B40B8A293B"
+			tasks: [
+				{
+					id: "3490AFBAE7A1D6EC"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "2D298C5227A07BEF"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bone"
+						}
+					}
+				}
+				{
+					id: "5AE89E0A7426A890"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "粉碎他们！"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "累死"
+			description: ["我把矿石扔到磨里，疯狂的摇动手柄，终于获得了这些碎矿石"]
+			dependencies: ["78EEB7660C99D34D"]
+			id: "33ECE35F87049ACE"
+			tasks: [
+				{
+					id: "7ABC7B43BE4A7928"
+					type: "item"
+					item: "create:crushed_iron_ore"
+				}
+				{
+					id: "7EE4519334C205D3"
+					type: "item"
+					item: "create:crushed_copper_ore"
+				}
+				{
+					id: "7BC825AB2DCFD57D"
+					type: "item"
+					item: "create:crushed_zinc_ore"
+				}
+			]
+		}
+		{
+			title: "研磨"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "捏碎他们！"
+			description: ["我继续磨碎粉碎的矿石，得到了一堆矿粒，我觉得他们可以用来合成锭！"]
+			dependencies: ["33ECE35F87049ACE"]
+			id: "5F5591E70B31BCED"
+			tasks: [
+				{
+					id: "7F510D9826B83F21"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "3F146A8EF8904847"
+					type: "item"
+					title: "铜粒"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+				}
+				{
+					id: "7EA63BC7839A7AB4"
+					type: "item"
+					item: "create:zinc_nugget"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["这种机壳质量非常好！"]
+			dependencies: ["0315DAD345C61963"]
+			id: "39C09026ACF5FE24"
+			tasks: [{
+				id: "01F4D834096D3E39"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "10A5E8A1F42D7C5F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
 	]
 }

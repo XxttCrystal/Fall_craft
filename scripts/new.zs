@@ -77,8 +77,6 @@ craftingTable.addShaped("aa", <item:contenttweaker:not_ok_aa>*6, [
 <recipetype:create:crushing>.addRecipe("hopes_1", [<item:contenttweaker:not_ok_aa>,<item:contenttweaker:not_ok_aa> % 10], <item:minecraft:andesite>);
 
 <item:notreepunching:ceramic_bucket>.withTag({Fluid: {FluidName: "minecraft:water" as string, Amount: 1000 as int}}).transformReplace(<item:notreepunching:ceramic_bucket>);
-craftingTable.addShapeless("recipe_name", <item:create:andesite_alloy>, [<item:contenttweaker:not_ok_aa>,<item:notreepunching:ceramic_bucket>.withTag({Fluid: {FluidName: "minecraft:water" as string, Amount: 1000 as int}}).transformReplace(<item:notreepunching:ceramic_bucket>)]);
-
 <recipetype:create:mixing>.addRecipe("aaaaaa", "none", <item:create:andesite_alloy>, [<item:contenttweaker:not_ok_aa>], [<fluid:minecraft:water> * 300]);
 <recipetype:create:splashing>.addRecipe("splashing_aa", [<item:create:andesite_alloy>, <item:create:crushed_zinc_ore> % 25], <item:contenttweaker:not_ok_aa>);
 //所有安山合金配方

@@ -1,0 +1,26 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "item": "minecraft:gravel",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "water"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "minecraft:flint",
+            "count": 1
+          },
+          "weight": 60
+        }
+      ],
+      "empty_weight": 40,
+      "rolls": 1
+    },
+    "consume_fluid": 0.1
+  }
