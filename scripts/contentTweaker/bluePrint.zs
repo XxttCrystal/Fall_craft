@@ -25,3 +25,5 @@ new ItemBuilder().build("ys_crystal");
 
 new ItemBuilder().build("not_ok_aa");
 //粗制安山合金
+new ItemBuilder().build("air_bottle");
+//压缩空气瓶

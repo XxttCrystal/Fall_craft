@@ -1,0 +1,287 @@
+{
+	id: "28BA52248FCA940E"
+	group: "4EC3A576025C391F"
+	order_index: 2
+	filename: "step3"
+	title: "Step3:电力运动"
+	icon: "immersiveengineering:wirecoil_copper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "绝对上好的材料"
+			x: 0.0d
+			y: 0.0d
+			description: ["再怎么说，钢的硬度和机械性能还是比黑铁好得多的"]
+			dependencies: ["4F1475BCF22787F6"]
+			id: "3F479A22653299A4"
+			tasks: [{
+				id: "0D1F2F9CBE729BF2"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 16L
+			}]
+			rewards: [{
+				id: "54E332FA41CBF8E2"
+				type: "item"
+				item: "immersiveengineering:storage_steel"
+				count: 4
+			}]
+		}
+		{
+			title: "！"
+			x: 2.5d
+			y: 0.0d
+			description: ["[在此阶段中任务量很少，但是你需要提前把沉浸工程的机器都做出来！]"]
+			dependencies: ["3F479A22653299A4"]
+			id: "595A5CD1173539F7"
+			tasks: [{
+				id: "6B8E378BB1205A4B"
+				type: "checkmark"
+				title: "点我！"
+			}]
+		}
+		{
+			title: "下一步"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["0C79BD6801988FEF"]
+			id: "6B004913BC07C68E"
+			tasks: [
+				{
+					id: "02AA7EE262E7F9DA"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "68F5B11A0D357CA2"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["595A5CD1173539F7"]
+			id: "5A3298EA469F097D"
+			tasks: [{
+				id: "6DA530520797983E"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			title: "黄铜时代"
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["5A3298EA469F097D"]
+			id: "1CAB1B54109FE489"
+			tasks: [
+				{
+					id: "706BED6E0B380020"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "086F3514D5990C1E"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["1CAB1B54109FE489"]
+			id: "38065FB6F7D776FD"
+			tasks: [{
+				id: "1F39B0AA24294615"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["38065FB6F7D776FD"]
+			id: "1CA658792A879D82"
+			tasks: [{
+				id: "2EFB5877FC82BFE6"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			title: "脚手架"
+			x: 8.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["1CA658792A879D82"]
+			id: "0C79BD6801988FEF"
+			tasks: [{
+				id: "440082DF83F115EA"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				count: 16L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["6B004913BC07C68E"]
+			id: "3254E17F4F7B965A"
+			tasks: [{
+				id: "09FAF1B27B745EE6"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["3254E17F4F7B965A"]
+			id: "22BA9C771571061F"
+			tasks: [
+				{
+					id: "2E1AF875FE9B9919"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "612BCBAFC10E0F84"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["22BA9C771571061F"]
+			id: "2A9B8002B27AE8BD"
+			tasks: [{
+				id: "74A2672011E34F7D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["2A9B8002B27AE8BD"]
+			id: "6ADDAC224C5199FE"
+			tasks: [{
+				id: "5216AC0C971FF09C"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6ADDAC224C5199FE"]
+			id: "158A0D510DA8EAC0"
+			tasks: [{
+				id: "332D052F1EB1E65D"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			dependencies: ["158A0D510DA8EAC0"]
+			id: "6317FEA31C97EBA0"
+			tasks: [
+				{
+					id: "2343709905D7CD25"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "75A0896FB170C4CC"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "7DEE6B981A6B07C6"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+				{
+					id: "4CB39C9569667FE5"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "1D1E68D847EDEEB7"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "3E6F7E1A0DA48846"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+				{
+					id: "140C5E708D474429"
+					type: "item"
+					item: "immersiveengineering:transformer"
+				}
+				{
+					id: "01D16FB96D8535CB"
+					type: "item"
+					item: "immersiveengineering:transformer_hv"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 5.5d
+			dependencies: ["6317FEA31C97EBA0"]
+			id: "7F86274D2B724F3A"
+			tasks: [{
+				id: "10B4706FAAD30217"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: ["现在你已经发展到你家乡的水平了！"]
+			dependencies: [
+				"7F86274D2B724F3A"
+				"158A0D510DA8EAC0"
+			]
+			id: "53588E9E12605984"
+			tasks: [{
+				id: "3C5411F47A386CD5"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [
+				{
+					id: "36712E7CB32CAF30"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+					count: 16
+				}
+				{
+					id: "640C480B58EEE4CE"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+					count: 16
+				}
+			]
+		}
+	]
+}

@@ -22,5 +22,7 @@
     "fluid.contenttweaker.ice_water" : "冷却液",
     "fluid.contenttweaker.liquid_he" : "液氦",
     "item.contenttweaker.ice_water_bucket" : "冷却液桶",
-    "item.contenttweaker.liquid_he_bucket" : "液氦桶"
+    "item.contenttweaker.liquid_he_bucket" : "液氦桶",
+    "gas.crafttweaker.he" : "氦气",
+    "item.contenttweaker.air_bottle" : "空气瓶"
 }

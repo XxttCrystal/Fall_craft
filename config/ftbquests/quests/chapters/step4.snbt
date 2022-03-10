@@ -1,0 +1,126 @@
+{
+	id: "6E633DF655107A8B"
+	group: "4EC3A576025C391F"
+	order_index: 3
+	filename: "step4"
+	title: "Step4:研究行动"
+	icon: "mekanism:sps_port"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "研究台"
+			x: 0.0d
+			y: 0.0d
+			description: ["为了研究，我找来一些旧的书，研究新的机器"]
+			dependencies: ["1C91560663771542"]
+			id: "39D39DEDEE356219"
+			tasks: [
+				{
+					id: "28F08D91232FA3D0"
+					type: "item"
+					item: "artisanworktables:worktable_scribe"
+				}
+				{
+					id: "6438EC69DE4B465D"
+					type: "item"
+					item: "artisanworktables:workstation_scribe"
+				}
+				{
+					id: "7A7D0FFE4A4FB931"
+					type: "item"
+					item: "artisanworktables:workshop_scribe"
+				}
+			]
+		}
+		{
+			title: "设计"
+			x: 3.0d
+			y: 0.0d
+			description: ["做好研究之后，我需要开始设计，制作机器"]
+			dependencies: ["39D39DEDEE356219"]
+			id: "10A4217B09D62579"
+			tasks: [
+				{
+					id: "47E9F22AAD3B03A1"
+					type: "item"
+					item: "artisanworktables:worktable_designer"
+				}
+				{
+					id: "0B7143297C512D62"
+					type: "item"
+					item: "artisanworktables:workstation_designer"
+				}
+				{
+					id: "765A888CB2B0ABA1"
+					type: "item"
+					item: "artisanworktables:workshop_designer"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["28BA52248FCA940E"]
+			id: "1C91560663771542"
+			tasks: [{
+				id: "5ABD51D4708E8670"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["研究了一天一夜，我终于研究出来了电学的基础知识！"]
+			dependencies: ["10A4217B09D62579"]
+			id: "2AE1AC4DFC61E418"
+			tasks: [{
+				id: "77771A98721CDEF2"
+				type: "item"
+				item: "contenttweaker:bk_basic"
+			}]
+		}
+		{
+			title: "基础机器"
+			x: 0.0d
+			y: -5.0d
+			description: ["这些高等机器我在敌人的基地当卧底的时候见过，现在我把他们造了出来！"]
+			dependencies: ["1C91560663771542"]
+			id: "07784EC98BB12FC9"
+			tasks: [
+				{
+					id: "1500B73AE83615E4"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+				}
+				{
+					id: "7C44EE2C11B29DE4"
+					type: "item"
+					item: "mekanism:metallurgic_infuser"
+				}
+				{
+					id: "04816FAD422C48A5"
+					type: "item"
+					item: "mekanism:combiner"
+				}
+				{
+					id: "52F61AD7F3FFD59F"
+					type: "item"
+					item: "mekanism:crusher"
+				}
+				{
+					id: "7E80175C15807B73"
+					type: "item"
+					item: "mekanism:osmium_compressor"
+				}
+			]
+			rewards: [{
+				id: "5341B0D407069334"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_steel"
+				count: 64
+			}]
+		}
+	]
+}

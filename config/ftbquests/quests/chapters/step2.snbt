@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 			subtitle: "大力士"
 			description: ["显然，我的手可以解决一些问题！"]
@@ -40,7 +40,7 @@
 		}
 		{
 			title: "模板"
-			x: 0.0d
+			x: -3.0d
 			y: 2.0d
 			subtitle: "匠人"
 			description: ["我作为一个匠人，这点小东西还是能记得的"]
@@ -55,7 +55,7 @@
 		}
 		{
 			title: "工匠台？"
-			x: 3.0d
+			x: -3.0d
 			y: 6.0d
 			subtitle: "工匠大师"
 			description: ["我需要工匠工作台，这玩意有更多的储存能力，还有模板工作台和工匠制作台，我来制作一些工具是有必要的！"]
@@ -76,7 +76,7 @@
 		}
 		{
 			title: "进阶的镐！"
-			x: 6.5d
+			x: -1.0d
 			y: 6.0d
 			dependencies: ["4B3660FA6BA816A2"]
 			id: "393E7F8CB8528D80"
@@ -118,7 +118,7 @@
 		}
 		{
 			title: "进阶的斧！"
-			x: 3.0d
+			x: -1.0d
 			y: 3.5d
 			dependencies: ["4B3660FA6BA816A2"]
 			id: "7C9C57B40B8A293B"
@@ -218,8 +218,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 1.0d
+			y: 1.0d
 			description: ["这种机壳质量非常好！"]
 			dependencies: ["0315DAD345C61963"]
 			id: "39C09026ACF5FE24"
@@ -233,6 +233,683 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+		}
+		{
+			title: "工匠？"
+			x: 2.5d
+			y: 2.5d
+			description: ["这些高级的工作台能够为我所用！"]
+			dependencies: ["36A9AAC146C9C16B"]
+			id: "041A151AAB03BFBC"
+			tasks: [
+				{
+					id: "4177CBE595138F73"
+					type: "item"
+					item: "artisanworktables:worktable_basic"
+				}
+				{
+					id: "48D1E73FB635CE7F"
+					type: "item"
+					item: "artisanworktables:workstation_basic"
+				}
+				{
+					id: "3B19C2937ED2AFF4"
+					type: "item"
+					item: "artisanworktables:workshop_basic"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["我并不能用手拍扁一块铁......"]
+			dependencies: [
+				"36A9AAC146C9C16B"
+				"39C09026ACF5FE24"
+			]
+			id: "480CF44F78DC5339"
+			tasks: [
+				{
+					id: "2BBBD21E7E2F58BF"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "28D7B45402F8E389"
+					type: "item"
+					item: "create:iron_sheet"
+				}
+			]
+			rewards: [{
+				id: "18B202AEA2451A90"
+				type: "item"
+				item: "contenttweaker:not_ok_aa"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["041A151AAB03BFBC"]
+			id: "636F688D87D88FF0"
+			tasks: [{
+				id: "2A40D3C8F55B9EE1"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["这种搅拌头可以很好的把物品和液体混合在一起！"]
+			dependencies: ["480CF44F78DC5339"]
+			id: "0BD24937BDF5BDA0"
+			tasks: [{
+				id: "018BE67897BC8792"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["我自己根本拽不动这玩意......"]
+			dependencies: [
+				"0BD24937BDF5BDA0"
+				"4A91D919D82DF966"
+			]
+			id: "3F6CE79DA33C6639"
+			tasks: [{
+				id: "2DCF28856B46D2DE"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["水的力量！"]
+			dependencies: ["0315DAD345C61963"]
+			id: "476080C9802A4AE7"
+			tasks: [{
+				id: "5A6407C992304693"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			title: "大自然之力"
+			x: 7.5d
+			y: -1.5d
+			description: ["大风吹着，应力从此而来"]
+			dependencies: [
+				"78EEB7660C99D34D"
+				"476080C9802A4AE7"
+			]
+			id: "4A91D919D82DF966"
+			tasks: [{
+				id: "7508FAD3220D20C1"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			title: "酸"
+			x: 7.5d
+			y: 2.5d
+			subtitle: "boil the coal？"
+			dependencies: [
+				"636F688D87D88FF0"
+				"3F6CE79DA33C6639"
+			]
+			id: "61BCA11AA4BDAB2E"
+			tasks: [{
+				id: "699CABF3E8B377BD"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			title: "手动搅拌"
+			x: 7.5d
+			y: 6.0d
+			description: ["我扔了一块沙砾在盆中，倒下一桶硫酸，然后一直搅拌，搅拌，我获得了新鲜的液态混凝土！"]
+			dependencies: [
+				"636F688D87D88FF0"
+				"61BCA11AA4BDAB2E"
+			]
+			id: "67965AA0A6A25E0A"
+			tasks: [{
+				id: "5511FE43601480E2"
+				type: "item"
+				item: "immersiveengineering:concrete_bucket"
+			}]
+			rewards: [{
+				id: "737C4C202F7CE262"
+				type: "item"
+				item: "immersiveengineering:concrete_bucket"
+			}]
+		}
+		{
+			title: "石匠"
+			x: 1.0d
+			y: 6.0d
+			description: ["混凝土作为一种专业的粘合剂，我合成了石匠工作台"]
+			dependencies: ["67965AA0A6A25E0A"]
+			id: "41B6D25F4CB584FF"
+			tasks: [
+				{
+					id: "02F0EFE8CC52BFD7"
+					type: "item"
+					item: "artisanworktables:worktable_mason"
+				}
+				{
+					id: "09AD126AEC8324D9"
+					type: "item"
+					item: "artisanworktables:workstation_mason"
+				}
+				{
+					id: "65A74FF1C082D22D"
+					type: "item"
+					item: "artisanworktables:workshop_mason"
+				}
+			]
+		}
+		{
+			title: "混合"
+			x: -3.0d
+			y: 9.0d
+			description: ["做一个好的炉子，就要有好的砖"]
+			dependencies: ["4B3660FA6BA816A2"]
+			id: "12B081EBB0AC0DBB"
+			tasks: [
+				{
+					id: "73798FE0D59D5FBF"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "392FD7F9E934281C"
+					type: "item"
+					item: "minecraft:sand"
+				}
+				{
+					id: "12FD673CCD1A51C7"
+					type: "item"
+					item: "minecraft:clay_ball"
+				}
+				{
+					id: "1665974D3094473A"
+					type: "item"
+					item: "tconstruct:grout"
+				}
+			]
+			rewards: [{
+				id: "189DBA9B63D4C103"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 16
+			}]
+		}
+		{
+			title: "焦黑砖"
+			x: -0.5d
+			y: 9.0d
+			description: ["这种焦黑的砖不仅稳定性好，耐高温，而且色泽光亮，适合装饰！"]
+			dependencies: ["12B081EBB0AC0DBB"]
+			id: "7AFB576B869A6AAD"
+			tasks: [{
+				id: "4B9CBBC5FFA238E5"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "549ACC77E12EC66C"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+			}]
+		}
+		{
+			title: "熔炼他们！"
+			x: 1.0d
+			y: 9.0d
+			description: ["堆砌，堆砌，粘合，粘合......反复操作，搭建熔炉，烧炼矿石，摆脱磨轮！"]
+			dependencies: [
+				"7AFB576B869A6AAD"
+				"41B6D25F4CB584FF"
+			]
+			id: "692370DDC4C5DE4E"
+			tasks: [
+				{
+					id: "735C47EE76118B36"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "5C6F6C4A66EC9A3E"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "6C2ACFC221D21611"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "2465F97DBA6FA181"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "4651A8063C3CC63E"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "603112AF803433E8"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+			rewards: [
+				{
+					id: "721A9A31B1731C76"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "1A0C0D0BA06F498C"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "炼金"
+			x: 7.5d
+			y: 9.0d
+			description: ["在地下挖到了大量的金矿，我磨碎他们，先合成了金锭"]
+			dependencies: ["692370DDC4C5DE4E"]
+			id: "6A7083763EBD88F7"
+			tasks: [{
+				id: "193EBC2BF2C5169E"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2034ABCF1DD18E4F"
+				type: "item"
+				item: "minecraft:gold_ore"
+				count: 6
+			}]
+		}
+		{
+			title: "模板"
+			x: 7.5d
+			y: 13.5d
+			description: ["我把金锭放在台上，倒出来一些熔融金，获得了一个金质的锭模具"]
+			dependencies: [
+				"6A7083763EBD88F7"
+				"692370DDC4C5DE4E"
+			]
+			id: "4345D155B5597FEC"
+			tasks: [{
+				id: "498DCC2858CD1250"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [{
+				id: "4D287277AC37CC33"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "升级他们！"
+			x: 4.0d
+			y: 13.5d
+			description: ["显然你只有一把普普通通没有属性的铁镐和一个匠人之镐，我想我可以用后者代替前者了！"]
+			dependencies: ["4345D155B5597FEC"]
+			id: "3D9045CDE8094907"
+			tasks: [{
+				id: "5C7EC4E47F109E27"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+		}
+		{
+			title: "巨大的炉子！"
+			x: 1.0d
+			y: 13.5d
+			description: ["熔融还在继续，但是小炉子已经不能满足我了！"]
+			dependencies: [
+				"3D9045CDE8094907"
+				"692370DDC4C5DE4E"
+			]
+			id: "0F85C1010E05648F"
+			tasks: [
+				{
+					id: "62ACE7CB00B20342"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "578A88198117D22B"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "3FEE65852571DCB0"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [{
+				id: "32249A7EF9899F9A"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 64
+			}]
+		}
+		{
+			title: "红色熔岩"
+			x: -3.0d
+			y: 13.5d
+			description: ["拿出一些熔融铁......"]
+			dependencies: ["692370DDC4C5DE4E"]
+			id: "1FE075A7D41E2349"
+			tasks: [{
+				id: "6C6AE5E9A27C426A"
+				type: "item"
+				item: "tconstruct:molten_iron_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 16.5d
+			dependencies: ["1FE075A7D41E2349"]
+			id: "79B3FB645FAAA679"
+			tasks: [{
+				id: "1339F9430C22A673"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			title: "黑色金属"
+			x: -1.0d
+			y: 15.0d
+			description: ["这种铁的硬度虽然不如钢，但是稳定性却堪比钻石！"]
+			dependencies: [
+				"79B3FB645FAAA679"
+				"1FE075A7D41E2349"
+			]
+			id: "6E2D87CDBA056946"
+			tasks: [{
+				id: "08D3BDDA417BE86D"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 16.5d
+			dependencies: [
+				"6E2D87CDBA056946"
+				"79B3FB645FAAA679"
+			]
+			id: "152F8EFC887AD488"
+			tasks: [{
+				id: "5E22207FA058D73E"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 16.5d
+			dependencies: ["152F8EFC887AD488"]
+			id: "6E103F28A3ABA910"
+			tasks: [{
+				id: "023FC9F9C088E555"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			title: "流体涌动"
+			x: 7.5d
+			y: 16.5d
+			description: ["铜的稳定性不错，用来作为管道什么的是最佳选择了！"]
+			dependencies: ["3D9045CDE8094907"]
+			id: "54DC4BD585C0D627"
+			tasks: [
+				{
+					id: "1062F68A3CB36C48"
+					type: "item"
+					item: "create:copper_casing"
+				}
+				{
+					id: "7F0853657F1E317D"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "1DBFE64CF16D164C"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "7DF4A4C5AED9C0EE"
+					type: "item"
+					item: "create:item_drain"
+				}
+			]
+			rewards: [{
+				id: "2DC9A0AD6A478598"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: 19.5d
+			dependencies: [
+				"54DC4BD585C0D627"
+				"6E103F28A3ABA910"
+			]
+			id: "263AD3C34D337EE8"
+			tasks: [{
+				id: "5CA582BCDAE37C78"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 18.5d
+			dependencies: ["152F8EFC887AD488"]
+			id: "199458B8EDEC61F9"
+			tasks: [{
+				id: "4EA9B4E654F48270"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+		}
+		{
+			title: "我给这种黑色的金属起了一个名字:铸铁"
+			x: -1.0d
+			y: 19.5d
+			description: ["铸铁作为齿轮，可以制作机械元件，也可以作为动力元件！"]
+			dependencies: [
+				"6E2D87CDBA056946"
+				"48241E3A62F3CE9C"
+			]
+			id: "552CB1A5B3AD1A6B"
+			tasks: [
+				{
+					id: "556FC0C0B25DF8FC"
+					type: "item"
+					item: "steampowered:cast_iron_cogwheel"
+				}
+				{
+					id: "7D6FD6A600C1BB01"
+					type: "item"
+					item: "steampowered:cast_iron_large_cogwheel"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 19.5d
+			dependencies: ["552CB1A5B3AD1A6B"]
+			id: "4F65B3EACFC12B1A"
+			tasks: [{
+				id: "0A2A028F6121A62C"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 19.5d
+			description: ["这种精密的元件可以用来做各种高级的机器！"]
+			dependencies: [
+				"4F65B3EACFC12B1A"
+				"263AD3C34D337EE8"
+			]
+			id: "1FB16F18A42471F1"
+			tasks: [{
+				id: "786DF297D3EA2A43"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			title: "灰色焦炉"
+			x: -3.0d
+			y: 19.5d
+			description: ["这种灰色的砖可以很好的烧炼，但是远远不能烧炼钢啊！"]
+			dependencies: ["552CB1A5B3AD1A6B"]
+			id: "6A8506172EBC01B4"
+			tasks: [{
+				id: "6FF5BA0ADB6AF8A3"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 22.0d
+			dependencies: ["6A8506172EBC01B4"]
+			id: "47CE0995D74FC5E4"
+			tasks: [{
+				id: "4755DFB9C3B32CC8"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+		}
+		{
+			title: "黑铁级工作台"
+			x: 0.0d
+			y: 18.5d
+			description: ["这种机械工作台可以用来很好地加工机械元件！"]
+			dependencies: ["199458B8EDEC61F9"]
+			id: "48241E3A62F3CE9C"
+			tasks: [{
+				id: "1E4FFDD656775B05"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			title: "蒸汽时代！"
+			x: -1.0d
+			y: 22.0d
+			description: ["铸铁作为高稳定性金属，可以用来承受高温的水蒸气，利用其内能产生动力！"]
+			dependencies: [
+				"552CB1A5B3AD1A6B"
+				"47CE0995D74FC5E4"
+			]
+			id: "432810099E17F365"
+			tasks: [
+				{
+					id: "7ABB1F583F53D510"
+					type: "item"
+					item: "steampowered:cast_iron_burner"
+				}
+				{
+					id: "284E39ECBAC12627"
+					type: "item"
+					item: "steampowered:cast_iron_boiler"
+				}
+				{
+					id: "0185F81F2D0FFD8E"
+					type: "item"
+					item: "steampowered:cast_iron_steam_engine"
+				}
+				{
+					id: "7EF5F92782F1BB43"
+					type: "item"
+					item: "steampowered:cast_iron_flywheel"
+				}
+			]
+		}
+		{
+			title: "准备好了吗？！"
+			x: 4.0d
+			y: 22.0d
+			subtitle: "下一步行动"
+			description: ["在我充足发展一段时间，家里有了许多机器，可以自动化生产一部分小型工具，现在我需要逐步赶上我旧的家乡的科技水平了！"]
+			dependencies: [
+				"1FB16F18A42471F1"
+				"432810099E17F365"
+			]
+			size: 2.0d
+			id: "0C531EFF17D4B171"
+			tasks: [{
+				id: "0F50A4AA376DFDD7"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [
+				{
+					id: "411CE94940FACFF9"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 8
+				}
+				{
+					id: "0886970863975F19"
+					type: "item"
+					item: "extendedcrafting:black_iron_block"
+					count: 8
+				}
+				{
+					id: "2A8C88C1BB8AB8B8"
+					type: "item"
+					item: "create:electron_tube"
+					count: 64
+				}
+				{
+					id: "4719E825016CF8F9"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 9
+				}
+			]
 		}
 	]
 }

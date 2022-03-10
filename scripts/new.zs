@@ -1,6 +1,10 @@
 import crafttweaker.util.NameUtils;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredientWithAmount;
+import mods.mekanism.api.ingredient.ChemicalStackIngredient.GasStackIngredient;
+import mods.mekanism.api.ingredient.FluidStackIngredient;
+import mods.mekanism.api.FloatingLong;
+import mods.mekanism.api.ingredient.ChemicalStackIngredient.GasStackIngredient;
 
 recipes.removeRecipe(<item:steampowered:alternator>);
 recipes.removeRecipe(<item:createaddition:alternator>);
@@ -98,3 +102,6 @@ craftingTable.addShapeless("yh", <item:minecraft:campfire>,
     },
     "efficiency": 100
 });
+
+//冷却液注册能力
+<recipetype:mekanism:rotary>.addRecipe("condensentrate_lithium", GasStackIngredient.from(<gas:crafttweaker:he>), <fluid:contenttweaker:liquid_he>);

@@ -10,6 +10,7 @@ $ cat .gitignore
 !/worldshape
 !/openloader
 !/quests_structures
+!/defaultconfigs
 
 #Files
 !/.gitignore
