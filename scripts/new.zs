@@ -84,3 +84,17 @@ craftingTable.removeRecipe(<item:watersource:coconut_tree_planks>);
 craftingTable.addShapeless("yh", <item:minecraft:campfire>, 
 [<item:notreepunching:fire_starter>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:forge:rods/wooden>,<item:notreepunching:plant_fiber>,<item:minecraft:charcoal>]);
 //营火配方
+
+
+
+<recipetype:mekanism:fluid_coolant>.addJSONRecipe("test1",{
+    "input": {
+      "fluid": "contenttweaker:ice_water",
+      "amount": 1
+    },
+    "output": {
+      "gas": "mekanism:steam",
+      "amount": 10
+    },
+    "efficiency": 100
+});

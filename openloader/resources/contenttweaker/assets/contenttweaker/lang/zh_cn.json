@@ -17,5 +17,10 @@
     "item.contenttweaker.not_ok_aa" : "粗制安山合金",
     "item.contenttweaker.copper_coin" : "铜币",
     "item.contenttweaker.silver_coin" : "银币",
-    "item.contenttweaker.golden_coin" : "金币"
+    "item.contenttweaker.golden_coin" : "金币",
+    "block.contenttweaker.ice_iron_block" : "寒铁块",
+    "fluid.contenttweaker.ice_water" : "冷却液",
+    "fluid.contenttweaker.liquid_he" : "液氦",
+    "item.contenttweaker.ice_water_bucket" : "冷却液桶",
+    "item.contenttweaker.liquid_he_bucket" : "液氦桶"
 }

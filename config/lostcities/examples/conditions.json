@@ -12,11 +12,11 @@
       },
       {
         "factor": 1,
-        "value": "minecraft:skeleton"
+        "value": "minecraft:zombie"
       },
       {
         "factor": 1,
-        "value": "minecraft:spider"
+        "value": "minecraft:zombie"
       }
     ]
   },
@@ -26,11 +26,11 @@
     "values": [
       {
         "factor": 1,
-        "value": "minecraft:blaze"
+        "value": "minecraft:zombie"
       },
       {
         "factor": 1,
-        "value": "minecraft:witch"
+        "value": "minecraft:zombie"
       }
     ]
   },

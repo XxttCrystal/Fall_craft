@@ -1,0 +1,51 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "002",
+    "controllerId": "basic",
+    "ticks": 180,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "minecraft:water",
+                "amount": 1000
+            }
+        },
+        {
+            "type": "masterfulmachinery:create_rotation",
+            "data":{
+                "speed": 1
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "minecraft:wheat",
+                "count": 64
+            }
+        }
+    ],
+    "outputs":[
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "create:wheat_flour",
+                "count": 64
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "create:wheat_flour",
+                "count": 64
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "create:wheat_flour",
+                "count": 64
+            }
+        }
+    ]
+}

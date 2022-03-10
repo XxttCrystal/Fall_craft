@@ -1,0 +1,49 @@
+{
+    "type": "masterfulmachinery:machine_structure",
+    "id": "002",
+    "controllerId": "basic",
+    "name": "wash car",
+    "layout": [
+      [
+        ")***C",
+        "+   +",
+        " +++ "
+      ],
+      [
+        "     ",
+        ",---.",
+        " ++/ "
+      ],
+      [
+        "     ",
+        "   0 ",
+        "   0 "
+      ]
+    ],
+    "legend": {
+      "0": {
+        "block": "minecraft:oak_fence"
+      },
+      ")": {
+        "block": "masterfulmachinery:basic_spinny_port_create_rotation_input"
+      },
+      "*": {
+        "block": "minecraft:smooth_stone_slab"
+      },
+      "+": {
+        "block": "create:andesite_casing"
+      },
+      ",": {
+        "block": "masterfulmachinery:basic_basic_port_items_output"
+      },
+      "-": {
+        "block": "create:water_wheel"
+      },
+      ".": {
+        "block": "masterfulmachinery:basic_basic_port_items_input"
+      },
+      "/": {
+        "block": "masterfulmachinery:basic_small_port_fluids_input"
+      }
+    }
+  }
