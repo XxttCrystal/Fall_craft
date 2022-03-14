@@ -1,0 +1,135 @@
+{
+	id: "5CBEEC319F498507"
+	group: "5DE5C4C0BD5A888C"
+	order_index: 1
+	filename: "5CBEEC319F498507"
+	title: "大军统领！"
+	icon: "minecraft:zombie_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "经过我的研究，我已经想好了该怎么做了！"
+			x: 1.5d
+			y: 3.0d
+			description: ["我应该建立一支军队！"]
+			dependencies: ["29E24827C29FE475"]
+			id: "7EC359D291CB01E6"
+			tasks: [{
+				id: "1C6DD85F271D49B7"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [
+				{
+					id: "2E0C5662E6BF16B6"
+					type: "command"
+					title: "创建红队！"
+					command: "/team add red"
+					player_command: true
+				}
+				{
+					id: "26C648DCBBB6C35A"
+					type: "command"
+					title: "加入红队！！！"
+					command: "/team join red"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "为什么有两个！"
+			x: 1.5d
+			y: 5.0d
+			description: ["你必须两个都点，后点哪个你选的就是哪个队伍"]
+			dependencies: ["29E24827C29FE475"]
+			id: "18E162EEA968930E"
+			tasks: [{
+				id: "3A73D013D3377160"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [
+				{
+					id: "322D9F2A707306EC"
+					type: "command"
+					title: "创建蓝队！"
+					command: "/team add blue"
+					player_command: false
+				}
+				{
+					id: "76CA68E35DE769C6"
+					type: "command"
+					title: "加入蓝队！！！"
+					command: "/team join blue"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["7EC359D291CB01E6"]
+			id: "23AC4EFC708706A6"
+			tasks: [{
+				id: "4D1F6CBD66AD53B4"
+				type: "checkmark"
+				title: "小小设定"
+			}]
+			rewards: [
+				{
+					id: "3E1BA5245E322AA5"
+					type: "command"
+					title: "开启显示队友！"
+					command: "/team modify red color red"
+					player_command: true
+				}
+				{
+					id: "7FC7DCD45367D05C"
+					type: "command"
+					title: "防止友军伤害！"
+					command: "/team modify red friendlyFire"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "小小设定！（蓝队）"
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["18E162EEA968930E"]
+			id: "183E8CCBD3AC5B75"
+			tasks: [{
+				id: "366CB24CF10BAE78"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [
+				{
+					id: "56CA423AD09756E6"
+					type: "command"
+					title: "显示队友！"
+					command: "/team modify blue color blue"
+					player_command: true
+				}
+				{
+					id: "4EEA1290CC50671A"
+					type: "command"
+					title: "防止友军伤害！"
+					command: "/team modify blue friendlyFire false"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "29E24827C29FE475"
+			tasks: [{
+				id: "7288FFD9F40A2D69"
+				type: "checkmark"
+				title: "选择你的队伍！"
+			}]
+		}
+	]
+}
