@@ -88,7 +88,7 @@
 					id: "7FC7DCD45367D05C"
 					type: "command"
 					title: "防止友军伤害！"
-					command: "/team modify red friendlyFire"
+					command: "/team modify red friendlyFire false"
 					player_command: true
 				}
 			]
@@ -130,6 +130,45 @@
 				type: "checkmark"
 				title: "选择你的队伍！"
 			}]
+		}
+		{
+			title: "用这些东西征服怪物！"
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["29E24827C29FE475"]
+			id: "70F59F6AF53E4249"
+			tasks: [{
+				id: "7C6BCDB5C7312132"
+				type: "checkmark"
+				title: "领取物品！"
+			}]
+			rewards: [
+				{
+					id: "3CA01EAC6DEEDFDC"
+					type: "item"
+					item: "mobbattle:mob_stick"
+				}
+				{
+					id: "302A53397BC86169"
+					type: "item"
+					item: "mobbattle:mob_group"
+				}
+				{
+					id: "23A6F31AE7036946"
+					type: "item"
+					item: "mobbattle:mob_armor"
+				}
+				{
+					id: "1D378895051FEE5A"
+					type: "item"
+					item: "mobbattle:mob_mount"
+				}
+				{
+					id: "73FE6184198AC5CD"
+					type: "item"
+					item: "mobbattle:mob_army"
+				}
+			]
 		}
 	]
 }

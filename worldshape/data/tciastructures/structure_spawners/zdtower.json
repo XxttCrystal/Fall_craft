@@ -2,7 +2,7 @@
     "template": {
         "type": "single", 
         "id": "tciastructures:zdtower", 
-        "maxDepth": 20, 
+        "maxDepth": 880, 
         
                                
         "followTerrain": false 

@@ -2,7 +2,7 @@
     "template": {
         "type": "single", 
         "id": "tciastructures:leader_factory", 
-        "maxDepth": 20, 
+        "maxDepth": 800, 
         
                                
         "followTerrain": false 

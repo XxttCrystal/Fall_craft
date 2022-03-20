@@ -122,5 +122,66 @@
 				count: 64
 			}]
 		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["10A4217B09D62579"]
+			id: "271F82776946A2EC"
+			tasks: [{
+				id: "129119890AE2CD94"
+				type: "questsadditions:structure"
+				title: "超负荷反物质驱动器"
+				name: "slrad"
+				hasCustomPicture: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: [
+				"2AE1AC4DFC61E418"
+				"07784EC98BB12FC9"
+			]
+			id: "07844919417AACF5"
+			tasks: [{
+				id: "3450F100CAEB96AE"
+				type: "item"
+				item: "contenttweaker:bk_jx"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["2AE1AC4DFC61E418"]
+			id: "3CB1EAD211FC03F3"
+			tasks: [
+				{
+					id: "13D0E7FE096189E9"
+					type: "item"
+					item: "contenttweaker:bk_color"
+				}
+				{
+					id: "117BDFDA577A396E"
+					type: "item"
+					item: "mekanism:pigment_mixer"
+				}
+				{
+					id: "6CC34F4AC0E97DEF"
+					type: "item"
+					item: "mekanism:pigment_extractor"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["2AE1AC4DFC61E418"]
+			id: "20E8AD53D63AF447"
+			tasks: [{
+				id: "584232D551FDF00B"
+				type: "item"
+				item: "contenttweaker:bk_iv"
+			}]
+		}
 	]
 }

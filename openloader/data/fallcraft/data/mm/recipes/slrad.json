@@ -1,0 +1,58 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "099",
+    "controllerId": "basic",
+    "ticks": 300,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "extendedcrafting:the_ultimate_nugget",
+                "count": 1
+            }
+        },
+        {
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 1000000
+            }
+        },
+        {
+            "type": "masterfulmachinery:mekanism_gas",
+            "data":{
+                "gas": "mekanism:antimatter",
+                "amount": 50
+            }
+        },
+        {
+            "type": "masterfulmachinery:mekanism_gas",
+            "data":{
+                "gas": "mekanism:hydrogen",
+                "amount": 150
+            }
+        },
+        {
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "contenttweaker:ice_water",
+                "amount": 1000
+            }
+        }
+    ],
+    "outputs":[
+        {
+            "type": "masterfulmachinery:mekanism_gas",
+            "data":{
+                "gas": "crafttweaker:he",
+                "amount": 1000
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "extendedcrafting:ultimate_singularity",
+                "count": 1
+            }
+        }
+    ]
+}
