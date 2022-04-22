@@ -17,4 +17,4 @@ $ cat .gitignore
 !/README.md
 !/options.txt
 !/LICENSE
-!/更新说明.txt
+!/TODOlist.txt
