@@ -1,1 +1,14 @@
-[]
+[{
+    "mob": ["minecraft:blaze","minecraft:wither_skeleton"],
+    "persecond": 0.4,
+    "attempts": 29,
+    "amount": {
+    "minimum": 1,
+    "maximum": 3
+    },
+    "conditions": {
+    "dimension":"minecraft:overworld",
+    "norestrictions": true,
+    "maxthis": 10
+    }
+    }]
