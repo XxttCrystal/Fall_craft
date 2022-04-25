@@ -75,6 +75,7 @@
 			title: "黄铜时代"
 			x: 0.0d
 			y: 2.5d
+			description: ["没有虚空飞轮了，也许你应该好好想想发动的问题了"]
 			dependencies: ["5A3298EA469F097D"]
 			id: "1CAB1B54109FE489"
 			tasks: [
@@ -282,6 +283,62 @@
 					count: 16
 				}
 			]
+		}
+		{
+			title: "自己的小世界"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "无人干扰~~~"
+			description: [
+				"这是一个没有人的世界，他属于你，属于你的工厂，8个黑曜石和一个末影珍珠将会开启这个无限的世界，只有想象力才会限制你的发展！（用末影珍珠右键进入！）"
+				"[床不会爆炸，但是玩家共享这个世界(我不了解多人模式)当你进入的时候高度为1，所以周围很黑，但是如果你跑到高度大于60的位置就会变亮了，所以建议你到60的位置开始造房子啥的，还有就是记得开死亡不掉落，东西掉下去我可不管~]"
+			]
+			dependencies: ["3F479A22653299A4"]
+			id: "56493D702DD951D1"
+			tasks: [{
+				id: "54ECBEFE5D23D676"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [
+				{
+					id: "174D3D39F966CC2A"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+				{
+					id: "337E5A226B736103"
+					type: "item"
+					item: "minecraft:stone"
+					count: 60
+				}
+				{
+					id: "2A7A3A21B7454D2F"
+					type: "item"
+					item: "minecraft:ladder"
+					count: 60
+				}
+				{
+					id: "6B36DE890F4D367C"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 256
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "多了一个槽位？"
+			description: ["也许你发现，附魔台多了一个位置，那叫附魔定位，你可以放入一些东西来决定你想要附魔出一类附魔，但很可惜，目前只支持原版，jei中写了什么物品可以附魔出什么附魔"]
+			dependencies: ["3F479A22653299A4"]
+			id: "043755C675CD2975"
+			tasks: [{
+				id: "266BA37C0E78E020"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
 		}
 	]
 }

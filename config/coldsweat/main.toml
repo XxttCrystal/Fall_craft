@@ -2,7 +2,7 @@
 ShowConfigButton = true
 #Overrides all other config options for easy difficulty management
 #Range: 1 ~ 5
-Difficulty = 3
+Difficulty = 4
 
 ["Item settings"]
 	#Fire Resistance blocks all hot temperatures
@@ -19,13 +19,13 @@ Difficulty = 3
 ["Details about how the player is affected by temperature"]
 	#Minimum habitable temperature (default: 0.42857142857142855)
 	#Range: -Infinity ~ Infinity
-	"Minimum Habitable Temperature" = 0.42857142857142855
+	"Minimum Habitable Temperature" = 0.6668571428666694
 	#Maximum habitable temperature (default: 1.619047619047619)
 	#Range: -Infinity ~ Infinity
-	"Maximum Habitable Temperature" = 1.619047619047619
+	"Maximum Habitable Temperature" = 1.3808571428768694
 	#Rate at which the player's body temperature changes (default: 1.0 (100%))
 	#Range: 0.0 ~ Infinity
-	"Rate Multiplier" = 1.0
+	"Rate Multiplier" = 1.5
 
 ["Grace Period Details"]
 	#Grace period length in ticks (default: 6000)

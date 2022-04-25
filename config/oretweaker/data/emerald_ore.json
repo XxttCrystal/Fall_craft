@@ -3,14 +3,24 @@
     {
       "ore": "minecraft:emerald_ore",
       "filler": "minecraft:stone",
-      "minY": 4,
-      "maxY": 32,
+      "minY": 1,
+      "maxY": 128,
       "maxVeinSize": 1,
       "spawnRate": 5.0,
       "biomeBlacklist": [],
       "biomeWhitelist": [
         "MOUNTAIN"
       ]
+    },
+    {
+      "ore": "minecraft:emerald_ore",
+      "filler": "minecraft:lava",
+      "minY": 1,
+      "maxY": 32,
+      "maxVeinSize": 9,
+      "spawnRate": 7.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
     }
   ]
 }

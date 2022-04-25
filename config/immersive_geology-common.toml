@@ -1,0 +1,692 @@
+
+["Ore Generation"]
+
+	#Ore Generation Configuration - START
+	["Ore Generation".gold]
+
+		["Ore Generation".gold.gold]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".iron]
+
+		["Ore Generation".iron.iron]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".lead]
+
+		["Ore Generation".lead.lead]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".manganese]
+
+		["Ore Generation".manganese.manganese]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".platinum]
+
+		["Ore Generation".platinum.platinum]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 3
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 30
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 2
+
+	["Ore Generation".silver]
+
+		["Ore Generation".silver.silver]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".cobalt]
+
+		["Ore Generation".cobalt.cobalt]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".arsenic]
+
+		["Ore Generation".arsenic.arsenic]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".diamond]
+
+		["Ore Generation".diamond.diamond]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".phlebotinum]
+
+		["Ore Generation".phlebotinum.phlebotinum]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 3
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 30
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 2
+
+	["Ore Generation".glowstone]
+
+		["Ore Generation".glowstone.glowstone]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".quartz]
+
+		["Ore Generation".quartz.quartz]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".alumina]
+
+		["Ore Generation".alumina.alumina]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".anatase]
+
+		["Ore Generation".anatase.anatase]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".cuprite]
+
+		["Ore Generation".cuprite.cuprite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".zircon]
+
+		["Ore Generation".zircon.zircon]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".ilmenite]
+
+		["Ore Generation".ilmenite.ilmenite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".cobaltite]
+
+		["Ore Generation".cobaltite.cobaltite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".cassiterite]
+
+		["Ore Generation".cassiterite.cassiterite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".chalcopyrite]
+
+		["Ore Generation".chalcopyrite.chalcopyrite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".chromite]
+
+		["Ore Generation".chromite.chromite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".cryolite]
+
+		["Ore Generation".cryolite.cryolite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 3
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 30
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 2
+
+	["Ore Generation".ferberite]
+
+		["Ore Generation".ferberite.ferberite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".fluorite]
+
+		["Ore Generation".fluorite.fluorite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".gypsum]
+
+		["Ore Generation".gypsum.gypsum]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".hematite]
+
+		["Ore Generation".hematite.hematite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".hubnerite]
+
+		["Ore Generation".hubnerite.hubnerite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".magnetite]
+
+		["Ore Generation".magnetite.magnetite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".pyrolusite]
+
+		["Ore Generation".pyrolusite.pyrolusite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".rocksalt]
+
+		["Ore Generation".rocksalt.rocksalt]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".saltpeter]
+
+		["Ore Generation".saltpeter.saltpeter]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".thorianite]
+
+		["Ore Generation".thorianite.thorianite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".thorite]
+
+		["Ore Generation".thorite.thorite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 4
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 50
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 3
+
+	["Ore Generation".uraninite]
+
+		["Ore Generation".uraninite.uraninite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".sphalerite]
+
+		["Ore Generation".sphalerite.sphalerite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".ullmannite]
+
+		["Ore Generation".ullmannite.ullmannite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 5
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 70
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 4
+
+	["Ore Generation".galena]
+
+		["Ore Generation".galena.galena]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".pyrite]
+
+		["Ore Generation".pyrite.pyrite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".wolframite]
+
+		["Ore Generation".wolframite.wolframite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".vanadinite]
+
+		["Ore Generation".vanadinite.vanadinite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".kaolinite]
+
+		["Ore Generation".kaolinite.kaolinite]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".coal]
+
+		["Ore Generation".coal.coal]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 8
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 90
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 6
+
+	["Ore Generation".unobtania]
+
+		["Ore Generation".unobtania.unobtania]
+			#The maximum size of a vein. set to 0 to disable generation
+			#Range: > 0
+			vein_size = 3
+			#The minimum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			min_y = 1
+			#The maximum Y Coordinate this ore can spawn at
+			#Range: > -2147483648
+			max_y = 30
+			#The average number of veins per chunk
+			#Range: > 0
+			avg_veins_per_chunk = 2
+

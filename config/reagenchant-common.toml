@@ -1,0 +1,24 @@
+
+#Reagenchant common configuration
+[common]
+
+	[common.compatibility]
+
+		[common.compatibility.quark]
+			#If Quark compatibility should be enabled; Default: true
+			enableQuarkCompatibility = true
+
+	[common.tweaks]
+
+		[common.tweaks.items]
+			#If items with the Unbreakable enchantment should not break; Default: true
+			unbreakableItems = true
+
+		[common.tweaks.player]
+			#The percent of experience which should drop on death; Default: 0.5
+			#Range: 0.0 ~ 1.0
+			percentOfXpDroppedOnDeath = 0.5
+			#The percent of experience dropped which should be lost; Default: 0.25
+			#Range: 0.0 ~ 1.0
+			percentOfDroppedXpLost = 0.25
+

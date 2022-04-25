@@ -10,6 +10,9 @@
     "redstone": true,
     "repeater": true
   },
+  "fluiddrawerslegacy": {
+    "display.content": true
+  },
   "jade": {
     "horse_inventory": true,
     "show_entity_armor": true,
@@ -48,5 +51,10 @@
   },
   "fruittrees": {
     "bee": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }

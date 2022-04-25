@@ -9,6 +9,16 @@
       "spawnRate": 1.0,
       "biomeBlacklist": [],
       "biomeWhitelist": []
+    },
+    {
+      "ore": "minecraft:diamond_ore",
+      "filler": "minecraft:coal_ore",
+      "minY": 1,
+      "maxY": 80,
+      "maxVeinSize": 8,
+      "spawnRate": 0.8,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
     }
   ]
 }

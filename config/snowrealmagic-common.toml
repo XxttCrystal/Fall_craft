@@ -15,7 +15,7 @@ snowOnIce = false
 snowNeverMelt = false
 snowMeltsInWarmBiomes = false
 #Should snow melt if layers are more than 1
-snowNaturalMelt = true
+snowNaturalMelt = false
 snowReduceFallDamage = true
 #block like grass will be generated with snow
 replaceWorldFeature = true

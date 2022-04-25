@@ -1,11 +1,11 @@
-#Range: 1 ~ 4
-itemsPerColumn = 4
+disableLootManagerReloading = false
+hiddenTabs = []
 #Range: 1 ~ 4
 itemsPerRow = 4
-diyData = true
-showDevData = false
 enchantsBlacklist = ["flimflam", "soulBound"]
-hiddenTabs = []
+showDevData = false
 dimensionsBlacklist = [-11]
-disableLootManagerReloading = false
+diyData = true
+#Range: 1 ~ 4
+itemsPerColumn = 4
 
