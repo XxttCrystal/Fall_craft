@@ -1,6 +1,0 @@
-
-#Debug Mode
-[debug]
-	#Print all active rules after all they are all loaded
-	printAllActiveRules = false
-

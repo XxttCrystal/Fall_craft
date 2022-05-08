@@ -1,5 +1,0 @@
-
-[client]
-	#Makes tiered tools have tier number drawed on their texture.
-	itemBackgroundIcon = true
-
