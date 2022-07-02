@@ -1,0 +1,774 @@
+{
+  "name": "tk",
+  "progressTexture": "multiblocked:textures/progress_bar_fire.png",
+  "recipes": [
+    {
+      "uid": "2e3cd061-eccf-435e-8f18-95fab732932a",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": {
+                "item": "create:zinc_ore"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "create:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "create:zinc_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "02d5d9f3-3537-4b1a-a781-dced9e4f512c",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:rabbit"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:cooked_rabbit"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1cb15583-d13b-42cd-a0b6-0494455aa835",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:fire_starter"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:clay_flower_pot"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:flower_pot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0bd97970-d5cd-4c56-b520-878d07deb03d",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:beef"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:cooked_beef"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "15c74c59-d5dc-42df-b1e0-8e64491a7e61",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:mutton"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:cooked_mutton"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "741c9b8b-583a-48ba-bd15-74b37d785b1e",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:fire_starter"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:clay_small_vessel"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:ceramic_small_vessel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "afb43019-811d-4972-8c47-0a8ed2d31949",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                {
+                  "item": "notreepunching:fire_starter"
+                },
+                {
+                  "item": "minecraft:flint_and_steel"
+                }
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                {
+                  "item": "minecraft:oak_log"
+                },
+                {
+                  "item": "minecraft:spruce_log"
+                },
+                {
+                  "item": "minecraft:birch_log"
+                },
+                {
+                  "item": "minecraft:jungle_log"
+                },
+                {
+                  "item": "minecraft:acacia_log"
+                },
+                {
+                  "item": "minecraft:dark_oak_log"
+                },
+                {
+                  "item": "culturaldelights:avocado_log"
+                },
+                {
+                  "item": "environmental:willow_log"
+                },
+                {
+                  "item": "environmental:cherry_log"
+                },
+                {
+                  "item": "environmental:wisteria_log"
+                },
+                {
+                  "item": "fruittrees:citrus_log"
+                },
+                {
+                  "item": "fruittrees:cherry_log"
+                },
+                {
+                  "item": "tconstruct:greenheart_log"
+                },
+                {
+                  "item": "tconstruct:skyroot_log"
+                },
+                {
+                  "item": "watersource:coconut_tree_log"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"immersiveengineering:creosote\",Amount:100}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "93cd6ee0-e8b6-4a05-9eba-16bee899d854",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:chicken"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:cooked_chicken"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b86a1c7f-267f-482c-b83f-26024f9111b2",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                {
+                  "item": "immersiveengineering:ore_copper"
+                },
+                {
+                  "item": "mekanism:copper_ore"
+                },
+                {
+                  "item": "create:copper_ore"
+                }
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "create:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "create:copper_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e48d1ddc-3b72-4708-930f-c2dee88d34a0",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:porkchop"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:cooked_porkchop"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7b12b6c9-6b2b-43fa-b8e0-89dfa93fbec2",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:fire_starter"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:clay_large_vessel"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:ceramic_large_vessel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f5c90097-0742-4eed-8d75-09a4f33aa702",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": {
+                "item": "minecraft:gold_ore"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "74226ef7-74da-4540-8b06-7360032d0547",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": {
+                "item": "minecraft:iron_ore"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e8554772-ef10-43cc-bd81-b090d0504ae1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "environmental:duck"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": {
+                "item": "environmental:cooked_duck"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "79e70739-ca8a-416a-90e6-2c22515b47b8",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:fire_starter"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:clay_bucket"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "notreepunching:ceramic_bucket"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "24d1ff49-bb17-4fe5-be67-ef19874762bf",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": {
+                "item": "minecraft:cobblestone"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:charcoal"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": {
+                "item": "minecraft:stone"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

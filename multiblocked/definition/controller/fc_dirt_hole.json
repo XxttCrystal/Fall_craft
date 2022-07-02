@@ -1,0 +1,200 @@
+{
+  "catalyst": "{id:\"notreepunching:fire_starter\",Count:1b,tag:{Damage:0}}",
+  "consumeCatalyst": false,
+  "location": "fc:dirt_hole",
+  "traits": {
+    "background": "multiblocked:textures/tk_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 8,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 29,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 50,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 71,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 8,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 29,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 50,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 71,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 92,
+        "y": 8,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 92,
+        "y": 29,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 1,
+        "x": 29,
+        "y": 65,
+        "autoIO": false,
+        "tC": 10000
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 8,
+        "y": 65,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:dirt_keng_texture",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "multiblocked:dirt_keng_texture",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "upTexture": "multiblocked:dirt_keng_not_work",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:dirt_keng_texture",
+    "frontTexture": "multiblocked:gregtech_front_work",
+    "upTexture": "multiblocked:dirt_keng",
+    "type": "gregtech"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "A A"
+      ],
+      [
+        "AAA",
+        " @ "
+      ],
+      [
+        "AAA",
+        "A A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:dirt"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "fc:dirt_hole",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "tk"
+}

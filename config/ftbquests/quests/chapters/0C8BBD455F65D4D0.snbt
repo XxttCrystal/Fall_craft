@@ -123,7 +123,11 @@
 			title: "获取:沙砾,燧石"
 			x: 3.5d
 			y: 1.5d
-			description: ["<text>沙砾是一种较大块的沙子，或者说是较小块的石头，沙砾中能够找到燧石，燧石是一种不错的工具合成材料，也可以用来生火，硬度较高"]
+			description: [
+				"<text>沙砾是一种较大块的沙子，或者说是较小块的石头，沙砾中能够找到燧石，燧石是一种不错的工具合成材料，也可以用来生火，硬度较高"
+				"燧石碎片可以用燧石右键一些硬质方块,比如石头,你就会获得砸碎的燧石"
+				"<tip>向水中扔沙砾有几率刷出铜粒或者燧石，所以尽量不要在水下挖沙砾"
+			]
 			dependencies: ["7878D5106179A739"]
 			id: "3FF3194317FC5208"
 			tasks: [
@@ -138,6 +142,11 @@
 					type: "item"
 					item: "minecraft:flint"
 					count: 3L
+				}
+				{
+					id: "2A36BF3F0E809987"
+					type: "item"
+					item: "notreepunching:flint_shard"
 				}
 			]
 		}
@@ -173,10 +182,10 @@
 			]
 			id: "58FF809240E3EE98"
 			tasks: [{
-				id: "54125246B592785E"
+				id: "0874A139BFD9EEEA"
 				type: "item"
 				item: {
-					id: "farmersdelight:flint_knife"
+					id: "notreepunching:flint_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -241,35 +250,14 @@
 					}
 				}
 				{
-					id: "0535B0F89DBC247F"
+					id: "0C73E4BFB5F874EF"
 					type: "item"
+					title: "任意 原木"
 					item: {
-						id: "notreepunching:flint_pickaxe"
+						id: "itemfilters:tag"
 						Count: 1b
 						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "513B570C8ED613B2"
-					type: "item"
-					item: {
-						id: "notreepunching:flint_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "245DF8DEC21FC28D"
-					type: "item"
-					item: {
-						id: "notreepunching:flint_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
+							value: "minecraft:logs"
 						}
 					}
 				}
@@ -324,6 +312,308 @@
 				id: "266F9E73531EEF3A"
 				type: "item"
 				item: "minecraft:cooked_beef"
+			}]
+		}
+		{
+			title: "木匠"
+			x: 10.5d
+			y: -1.0d
+			description: ["你需要一个木匠用的桌子来继续做更多的工具"]
+			dependencies: ["5533F0711FA3E21F"]
+			id: "4F89EF9081130009"
+			tasks: [
+				{
+					id: "2BE9615BA7795AC5"
+					type: "item"
+					item: "artisanworktables:worktable_carpenter"
+				}
+				{
+					id: "169A084DD817030C"
+					type: "item"
+					item: {
+						id: "notreepunching:clay_tool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05BC3C913EC798B7"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E2BE3D533AB6BF3"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63695B7A69A8EFF5"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6D4BCFEFA8B320A1"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 8
+			}]
+		}
+		{
+			title: "你会雕塑吗？"
+			x: 13.0d
+			y: -1.0d
+			description: ["用黏土抹子右键一个完整的黏土块，不同的次数对应不同的物品"]
+			dependencies: ["4F89EF9081130009"]
+			id: "709B7B0B3034C47D"
+			tasks: [
+				{
+					id: "15F2E04C82E64DAC"
+					type: "item"
+					item: "notreepunching:clay_large_vessel"
+				}
+				{
+					id: "30A2FAFC118DB77E"
+					type: "item"
+					item: "notreepunching:clay_small_vessel"
+				}
+				{
+					id: "4E300933A39D57F5"
+					type: "item"
+					item: "notreepunching:clay_bucket"
+				}
+				{
+					id: "78BFEDDB192D28E5"
+					type: "item"
+					item: "notreepunching:clay_flower_pot"
+				}
+			]
+			rewards: [{
+				id: "61020B983CA549A0"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 4
+			}]
+		}
+		{
+			title: "最爱5000度的陶"
+			x: 17.5d
+			y: -1.0d
+			description: [
+				"把你做好的那些黏土玩意扔到土坑里,用炭和点火器燃烧他们！"
+				"大陶罐可以在前期作为箱子的替代品"
+				"小陶罐可以作为随身的背包"
+				"陶桶很重要,用于承装液体"
+				"花盆就是个装饰"
+			]
+			dependencies: [
+				"709B7B0B3034C47D"
+				"040AEB6D99A77DB5"
+			]
+			id: "7E77201517AC7006"
+			tasks: [
+				{
+					id: "479DCD24113AF288"
+					type: "item"
+					item: {
+						id: "notreepunching:ceramic_large_vessel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 15
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1B8F7F8AA02EB799"
+					type: "item"
+					item: {
+						id: "notreepunching:ceramic_small_vessel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 9
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3D8D327670FA037E"
+					type: "item"
+					item: "notreepunching:ceramic_bucket"
+				}
+				{
+					id: "74F2DAE2C2AA488B"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+			]
+			rewards: [{
+				id: "3A3380D9EC51188C"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 8
+			}]
+		}
+		{
+			title: "土坑"
+			x: 15.5d
+			y: 1.5d
+			description: [
+				"<tips>建完结构后你需要把土坑控制器放到第二层的中间，并且朝向你，如果机器的脑袋上出现了黑色的洞就说明你建造成功了!然后回到这里点击一下多方块的那个任务就可以提交了"
+				"建造完之后,你需要用点火器右键一下土坑控制器哦~"
+				"不要让土坑长草！那会让多方块破坏"
+				"如果您没明白我所说的建造方法你也可以先对着多方块在背包里点击U(Jei查看用法)然后你就能看到多方块的建造方法了!"
+			]
+			dependencies: ["3FF3194317FC5208"]
+			id: "040AEB6D99A77DB5"
+			tasks: [
+				{
+					id: "3E427FF38AFF1427"
+					type: "item"
+					title: "土坑控制器"
+					item: "fc:dirt_hole"
+				}
+				{
+					id: "2B37C06229933CC2"
+					type: "questsadditions:structure"
+					title: "土坑"
+					icon: "tconstruct:ichor_slime_dirt"
+					name: "tk"
+					hasCustomPicture: false
+				}
+				{
+					id: "066900B07DD0F7C9"
+					type: "item"
+					item: {
+						id: "notreepunching:fire_starter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3B22B8CB9E3CAEA8"
+				type: "item"
+				item: "environmental:hay_nest"
+			}]
+		}
+		{
+			title: "屠夫"
+			x: 13.0d
+			y: -3.5d
+			description: ["你可以选择养殖动物，也可以选择杀死他们"]
+			dependencies: ["4F89EF9081130009"]
+			id: "1E0F5F83880161C5"
+			tasks: [
+				{
+					id: "07F9351234E996C5"
+					type: "item"
+					item: "minecraft:beef"
+				}
+				{
+					id: "40154C321AA0F464"
+					type: "item"
+					item: "minecraft:chicken"
+				}
+				{
+					id: "3CD5A861A8482B56"
+					type: "item"
+					item: "minecraft:mutton"
+				}
+				{
+					id: "01BFDB04434F3725"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -3.5d
+			dependencies: [
+				"1E0F5F83880161C5"
+				"040AEB6D99A77DB5"
+			]
+			id: "3E01467704E56B2B"
+			tasks: [
+				{
+					id: "1D63A79377A6CB34"
+					type: "item"
+					item: "minecraft:cooked_beef"
+				}
+				{
+					id: "17FA1A49B304D3F4"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+				}
+				{
+					id: "01087E80A1A1E2F0"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+				}
+				{
+					id: "673C0148DBBFC0AB"
+					type: "item"
+					item: "minecraft:cooked_mutton"
+				}
+			]
+		}
+		{
+			title: "工作台"
+			x: 13.0d
+			y: 4.5d
+			description: ["一种用来做其他工作台的工作台"]
+			dependencies: ["4F89EF9081130009"]
+			id: "77F169F5642E96FF"
+			tasks: [{
+				id: "26F76CC7C17617D5"
+				type: "item"
+				item: "artisanworktables:worktable_basic"
+			}]
+		}
+		{
+			title: "皮匠"
+			x: 17.5d
+			y: 4.5d
+			description: ["皮匠工作台可以制作各种皮革物品！"]
+			dependencies: ["77F169F5642E96FF"]
+			id: "4FABA40008D7F900"
+			tasks: [{
+				id: "6CE1AF73A951D2FF"
+				type: "item"
+				item: "artisanworktables:worktable_tanner"
+			}]
+			rewards: [{
+				id: "145374D31640C714"
+				type: "item"
+				item: "minecraft:leather"
+				count: 8
 			}]
 		}
 	]

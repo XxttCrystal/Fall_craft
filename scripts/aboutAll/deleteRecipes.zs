@@ -31,13 +31,25 @@ var deleteList as IItemStack[] = [
     <item:minecraft:netherite_shovel>,
     <item:minecraft:diamond_pickaxe>,
     <item:minecraft:diamond_axe>,
-    <item:notreepunching:flint_knife>,
     <item:minecraft:iron_sword>,
     <item:minecraft:diamond_sword>,
     <item:minecraft:netherite_sword>,
     <item:minecraft:crafting_table>,
-    <item:notreepunching:clay_tool>
+    <item:notreepunching:clay_tool>,
+    <item:farmersdelight:flint_knife>,
+    <item:notreepunching:flint_pickaxe>,
+    <item:notreepunching:flint_hoe>,
+    <item:notreepunching:flint_shovel>,
+    <item:minecraft:furnace>
 ];
 for d in deleteList{
     recipes.removeRecipe(d);
+}
+
+var deleteListCraftingTable as IItemStack[] = [
+    <item:minecraft:flint>
+];
+
+for dc in deleteListCraftingTable{
+    craftingTable.removeRecipe(dc);
 }
