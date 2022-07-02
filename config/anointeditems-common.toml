@@ -1,0 +1,21 @@
+
+[common]
+	#Agility Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	agilityIncrement = 0.02
+	#Tenacity Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	tenacityIncrement = 1.0
+	#Protection Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	protectionIncrement = 1.0
+	#Power Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	powerIncrement = 1.0
+	#Acceleration Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	accelerationIncrement = 0.5
+	#Lightness Oil increment value.
+	#Range: 0.001 ~ 1000.0
+	lightnessIncrement = 0.2
+

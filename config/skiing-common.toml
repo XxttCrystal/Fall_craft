@@ -1,0 +1,41 @@
+
+#Skiing Common Config
+[general]
+	#This sets whether the alps biome will generate.
+	generate_alps_biome = true
+	#This sets whether you are slowed down on non-snowy blocks.
+	cross_skiing = false
+	#This sets the default momentum (not very interesting).
+	#Range: 0.0 ~ 1.0
+	default_momentum = 0.4
+	#This sets the momentum in air.
+	#Range: 0.0 ~ 1.0
+	in_air_momentum = 0.8
+	#This sets the momentum in air when flying.
+	#Range: 0.0 ~ 1.0
+	in_air_momentum_flying = 0.8999999761581421
+	#This sets the momentum in water.
+	#Range: 0.0 ~ 1.0
+	in_water_momentum = 0.20000000298023224
+	#This sets the momentum on land.
+	#Range: 0.0 ~ 1.0
+	on_land_momentum = 0.4000000059604645
+	#This sets the momentum on snow.
+	#Range: 0.0 ~ 1.0
+	on_snow_momentum = 0.8500000238418579
+	#This sets the momentum on snow when holding ski sticks.
+	#Range: 0.0 ~ 1.0
+	on_snow_with_sticks_momentum = 0.9200000166893005
+
+[snow_layering]
+	#This sets whether snow layers are added when it snows.
+	add_snow_layers = true
+	#This sets the chance how often snow layers are added. 100 means every 5 seconds a snow layer is added.
+	#Range: > 1
+	add_snow_layer_chance = 100
+	#This sets whether snow layers are removed when it stops snowing.
+	remove_snow_layers = true
+	#This sets the chance how often snow layers are removed. 100 means every 5 seconds a snow layer is removed.
+	#Range: > 1
+	remove_snow_layer_chance = 200
+

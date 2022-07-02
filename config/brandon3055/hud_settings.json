@@ -1,0 +1,5 @@
+{
+    "brandonscore:item_hud": "{pos_x:0.0d,enabled:0b,pos_y:0.20494d}",
+    "brandonscore:block_hud": "{pos_x:0.0d,enabled:0b,pos_y:0.04593d}",
+    "brandonscore:block_item_hud": "{pos_x:0.99023d,enabled:1b,pos_y:0.72438d}"
+}

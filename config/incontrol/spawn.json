@@ -1,15 +1,1 @@
-[
-    {
-    "hostile": true,
-    "damagemultiply": 1.6,
-    "healthmultiply" :2.5,
-    "onjoin": true,
-    "result": "default"
-    },
-    {
-        "mob":"mobz:archer_entity",
-        "onjoin": true,
-        "result":"deny",
-        "maxtime":12500
-    }
-]
+[]

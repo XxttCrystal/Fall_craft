@@ -1,0 +1,330 @@
+{
+	id: "0C8BBD455F65D4D0"
+	group: "7D6181E32D9A87EE"
+	order_index: 0
+	filename: "0C8BBD455F65D4D0"
+	title: "章节一"
+	icon: "minecraft:cobblestone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "访问世界"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "world.getter"
+			description: ["world.get.ready"]
+			id: "4172BDBA867BBB99"
+			tasks: [{
+				id: "1ED19A3F300B654C"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "27A2A0E0362D3340"
+				type: "toast"
+				title: "?"
+				description: "<世界.overworld.message>已搜索到世界线"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Getter"
+			description: ["<任务>观察 草"]
+			dependencies: ["4172BDBA867BBB99"]
+			id: "2F5A9483AADD7507"
+			tasks: [{
+				id: "7172CEE6669E9A4A"
+				type: "observation"
+				title: "元素获取:草"
+				icon: "minecraft:grass"
+				timer: 40L
+				observe_type: 0
+				to_observe: "minecraft:grass"
+			}]
+			rewards: [{
+				id: "21D4B3BE6BED8949"
+				type: "xp"
+				xp: 15
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Getter"
+			description: ["<任务>活过第一天"]
+			dependencies: ["4172BDBA867BBB99"]
+			id: "26336A17DFD8D946"
+			tasks: [{
+				id: "7D13996268A7FA15"
+				type: "questsadditions:days"
+				title: "元素获取:时间"
+				icon: "minecraft:clock"
+				days: 1
+			}]
+			rewards: [{
+				id: "2A8BBE943E32DA38"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "元素获取:大地"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["4172BDBA867BBB99"]
+			id: "7878D5106179A739"
+			tasks: [
+				{
+					id: "1955153344B62B09"
+					type: "observation"
+					title: "元素获取:石"
+					icon: "minecraft:stone"
+					timer: 40L
+					observe_type: 0
+					to_observe: "minecraft:stone"
+				}
+				{
+					id: "66B5D7F506585FB8"
+					type: "observation"
+					title: "元素获取:燧石"
+					icon: "minecraft:gravel"
+					timer: 40L
+					observe_type: 0
+					to_observe: "minecraft:gravel"
+				}
+				{
+					id: "798E7F4EF1577185"
+					type: "observation"
+					title: "元素获取:草方块"
+					icon: "minecraft:grass_block"
+					timer: 40L
+					observe_type: 0
+					to_observe: "minecraft:grass_block"
+				}
+				{
+					id: "41ADE1C51F8C5AF9"
+					type: "observation"
+					title: "元素获取:泥土"
+					icon: "minecraft:dirt"
+					timer: 40L
+					observe_type: 0
+					to_observe: "minecraft:dirt"
+				}
+			]
+			rewards: [{
+				id: "3AC05C466595408D"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "获取:沙砾,燧石"
+			x: 3.5d
+			y: 1.5d
+			description: ["<text>沙砾是一种较大块的沙子，或者说是较小块的石头，沙砾中能够找到燧石，燧石是一种不错的工具合成材料，也可以用来生火，硬度较高"]
+			dependencies: ["7878D5106179A739"]
+			id: "3FF3194317FC5208"
+			tasks: [
+				{
+					id: "1BBD233A6E598348"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 10L
+				}
+				{
+					id: "064A1A8B35863054"
+					type: "item"
+					item: "minecraft:flint"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "获取木棍"
+			x: 3.5d
+			y: -3.5d
+			description: [
+				"木棍是基础资源，用来作为工具手柄"
+				"树苗可以合成木棍"
+			]
+			dependencies: ["0ACAF861C0882CB3"]
+			id: "6855E4C19F916A30"
+			tasks: [{
+				id: "579D9EF1FEEFCE27"
+				type: "item"
+				item: "minecraft:stick"
+				count: 16L
+			}]
+			rewards: [{
+				id: "513BB45E547F18CD"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["基础的切割工具，破坏巨型高草丛，高草丛和草会掉落植物纤维，也有几率掉落秸秆"]
+			dependencies: [
+				"6855E4C19F916A30"
+				"3FF3194317FC5208"
+			]
+			id: "58FF809240E3EE98"
+			tasks: [{
+				id: "54125246B592785E"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "579A6C994264E59E"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			title: "元素获取:树"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["4172BDBA867BBB99"]
+			id: "0ACAF861C0882CB3"
+			tasks: [
+				{
+					id: "0A5C9F5E30C31542"
+					type: "observation"
+					title: "元素获取:树叶"
+					icon: "minecraft:oak_leaves"
+					timer: 40L
+					observe_type: 1
+					to_observe: "minecraft:leaves"
+				}
+				{
+					id: "2D2319B80836D735"
+					type: "observation"
+					title: "元素获取:树木"
+					icon: "minecraft:oak_log"
+					timer: 40L
+					observe_type: 1
+					to_observe: "minecraft:logs"
+				}
+			]
+			rewards: [{
+				id: "159C0586DBC7F00C"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "破烂不堪的工具"
+			x: 8.5d
+			y: -1.0d
+			description: ["受到超强电磁干扰后的你，没有了曾经的力量，现在你需要一些简单的工具来破坏树木，石头，或者快速挖掘泥土，或者种地"]
+			dependencies: ["60C85456863E1CD2"]
+			id: "5533F0711FA3E21F"
+			tasks: [
+				{
+					id: "5F34C6706DCCF983"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0535B0F89DBC247F"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513B570C8ED613B2"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "245DF8DEC21FC28D"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3E8A208E2ECDA4D2"
+				type: "item"
+				item: "notreepunching:flint_shard"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: ["你用砍出来的植物纤维合成了植物绳和一种干燥的植物纤维，还算比较坚韧"]
+			dependencies: ["58FF809240E3EE98"]
+			id: "60C85456863E1CD2"
+			tasks: [
+				{
+					id: "388E7192520FC535"
+					type: "item"
+					item: "notreepunching:plant_string"
+				}
+				{
+					id: "707AF809CFF0636D"
+					type: "item"
+					item: "extcaves:plant_fiber"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "43364ECD46CD9ECC"
+				type: "item"
+				item: "notreepunching:plant_fiber"
+				count: 8
+			}]
+		}
+		{
+			title: "救护用品"
+			x: 8.5d
+			y: -3.5d
+			description: ["如果你受伤了，你可以用干燥的纤维作为治疗用品包扎伤口，你也可以向天空祈祷30s获取一些食物，水，治疗剂(任务菜单中点击右上角的救援用品，然后静静等待一会就会给你用品了)"]
+			dependencies: ["60C85456863E1CD2"]
+			id: "1CECEDF63703D4A7"
+			tasks: [{
+				id: "26D14D96FC7A984C"
+				type: "item"
+				item: "extcaves:medicine_bandage"
+				count: 8L
+			}]
+			rewards: [{
+				id: "266F9E73531EEF3A"
+				type: "item"
+				item: "minecraft:cooked_beef"
+			}]
+		}
+	]
+}

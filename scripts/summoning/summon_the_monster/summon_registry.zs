@@ -9,8 +9,8 @@ import crafttweaker.api.item.IIngredientWithAmount;
 import crafttweaker.api.entity.MCEntityType;
 
 craftingTable.addShaped("summoning", <item:zensummoning:altar>, [
-    [<item:contenttweaker:redstone_crystal>,<item:minecraft:air>,<item:contenttweaker:redstone_crystal>],
-    [<item:minecraft:crying_obsidian>, <item:contenttweaker:redstone_crystal>, <item:minecraft:crying_obsidian>],
+    [<item:minecraft:redstone_torch>,<item:minecraft:air>,<item:minecraft:redstone_torch>],
+    [<item:minecraft:crying_obsidian>, <item:minecraft:redstone_torch>, <item:minecraft:crying_obsidian>],
     [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
 ]);
 
